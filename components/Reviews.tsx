@@ -4,12 +4,12 @@ import { translations } from '@/components/translations'
 
 const reviewsData = {
   en: [
-    { name:'Salma', city:'Cairo', text:'My son saw his name on the cover — he stopped, looked at it and said: Mom, is this me?! He kept reading the book by himself three times in one day', stars:5, tag:'Printed Book', tagColor:'var(--pink)' },
-    { name:'Yara', city:'Alexandria', text:'Such a special birthday gift — my daughter was so happy seeing herself as the hero of the story. Thank you Batal Stories ❤️', stars:5, tag:'Premium Gift', tagColor:'var(--orange)' },
-    { name:'Layla', city:'Giza', text:'Faster than expected — I ordered the PDF and got it in less than 24 hours. Excellent quality and the pictures really look like my daughter', stars:5, tag:'PDF Edition', tagColor:'var(--purple)' },
-    { name:'Ghada', city:'Mansoura', text:'I was worried about the quality but I was pleasantly surprised! The illustrations are great and the story is beautifully written. I\u2019ll order again soon', stars:5, tag:'PDF Edition', tagColor:'var(--purple)' },
-    { name:'Dina', city:'Cairo', text:'The printed book is a masterpiece — beautiful packaging and excellent printing. My daughter reads it every day and learns from it', stars:5, tag:'Printed Book', tagColor:'var(--pink)' },
-    { name:'Rana', city:'Aswan', text:'Super easy to deal with, and communication on WhatsApp is simple. They\u2019re always ready to answer questions. I\u2019ll recommend it to all my friends', stars:5, tag:'Premium Gift', tagColor:'var(--orange)' },
+    { name:'Salma', city:'Dubai', text:'My son saw his name on the cover — he stopped, looked at it and said: Mom, is this me?! He kept reading the book by himself three times in one day', stars:5, tag:'Printed Book', tagColor:'var(--pink)' },
+    { name:'Yara', city:'Abu Dhabi', text:'Such a special birthday gift — my daughter was so happy seeing herself as the hero of the story. Thank you Batal Stories ❤️', stars:5, tag:'Premium Gift', tagColor:'var(--orange)' },
+    { name:'Layla', city:'Sharjah', text:'Faster than expected — I ordered the PDF and got it in less than 24 hours. Excellent quality and the pictures really look like my daughter', stars:5, tag:'PDF Edition', tagColor:'var(--purple)' },
+    { name:'Ghada', city:'Ajman', text:'I was worried about the quality but I was pleasantly surprised! The illustrations are great and the story is beautifully written. I\u2019ll order again soon', stars:5, tag:'PDF Edition', tagColor:'var(--purple)' },
+    { name:'Dina', city:'Al Ain', text:'The printed book is a masterpiece — beautiful packaging and excellent printing. My daughter reads it every day and learns from it', stars:5, tag:'Printed Book', tagColor:'var(--pink)' },
+    { name:'Rana', city:'Ras Al Khaimah', text:'Super easy to deal with, and communication on WhatsApp is simple. They\u2019re always ready to answer questions. I\u2019ll recommend it to all my friends', stars:5, tag:'Premium Gift', tagColor:'var(--orange)' },
   ],
   ar: [
     { name:'سلمى',  city:'القاهرة',     text:'ابني لما شاف اسمه على الغلاف — وقف وبص وقالي: ماما ده أنا؟! وفضل يقرأ الكتاب لوحده 3 مرات في يوم واحد', stars:5, tag:'كتاب مطبوع',  tagColor:'var(--pink)'   },
