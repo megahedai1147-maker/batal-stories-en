@@ -12,12 +12,12 @@ const reviewsData = {
     { name:'Rana', city:'Ras Al Khaimah', text:'Super easy to deal with, and communication on WhatsApp is simple. They\u2019re always ready to answer questions. I\u2019ll recommend it to all my friends', stars:5, tag:'Premium Gift', tagColor:'var(--orange)' },
   ],
   ar: [
-    { name:'سلمى',  city:'القاهرة',     text:'ابني لما شاف اسمه على الغلاف — وقف وبص وقالي: ماما ده أنا؟! وفضل يقرأ الكتاب لوحده 3 مرات في يوم واحد', stars:5, tag:'كتاب مطبوع',  tagColor:'var(--pink)'   },
-    { name:'يارا', city:'الإسكندرية',  text:'هدية عيد ميلاد مش عادية خالص — بنتي فرحت جداً لما شافت نفسها بطلة القصة. شكراً Batal Stories ❤️',                 stars:5, tag:'Premium هدية', tagColor:'var(--orange)' },
-    { name:'ليلى',  city:'الجيزة',      text:'أسرع من المتوقع — طلبت الـ PDF وجالي في أقل من 24 ساعة. الجودة ممتازة والصور تشبه بنتى جداً',                 stars:5, tag:'نسخة PDF',    tagColor:'var(--purple)' },
-    { name:'غادة',   city:'المنصورة',    text:'كنت خايفة من الجودة بس اتفاجأت جداً! الصور محترمة والقصة مكتوبة بأسلوب جميل. هطلب تاني قريب',                  stars:5, tag:'نسخة PDF',    tagColor:'var(--purple)' },
-    { name:'دينا',  city:'القاهرة',     text:'الكتاب المطبوع تحفة — التغليف قيم والطباعة ممتازة. بنتى بتقرأه كل يوم وبتتعلم منه',                          stars:5, tag:'كتاب مطبوع',  tagColor:'var(--pink)'   },
-    { name:'رنا',  city:'أسوان',       text:'التعامل سهل جداً والتواصل على واتساب بسيط. جاهزين دايماً يردوا على الأسئلة. هنصح كل اصحابى بيه',                    stars:5, tag:'Premium هدية', tagColor:'var(--orange)' },
+    { name:'سلمى',  city:'دبي',     text:'ابني لما شاف اسمه على الغلاف — وقف وبص وقالي: ماما ده أنا؟! وفضل يقرأ الكتاب لوحده 3 مرات في يوم واحد', stars:5, tag:'كتاب مطبوع',  tagColor:'var(--pink)'   },
+    { name:'يارا', city:'أبوظبي',  text:'هدية عيد ميلاد مش عادية خالص — بنتي فرحت جداً لما شافت نفسها بطلة القصة. شكراً Batal Stories ❤️',                 stars:5, tag:'Premium هدية', tagColor:'var(--orange)' },
+    { name:'ليلى',  city:'الشارقة',      text:'أسرع من المتوقع — طلبت الـ PDF وجالي في أقل من 24 ساعة. الجودة ممتازة والصور تشبه بنتى جداً',                 stars:5, tag:'نسخة PDF',    tagColor:'var(--purple)' },
+    { name:'غادة',   city:'عجمان',    text:'كنت خايفة من الجودة بس اتفاجأت جداً! الصور محترمة والقصة مكتوبة بأسلوب جميل. هطلب تاني قريب',                  stars:5, tag:'نسخة PDF',    tagColor:'var(--purple)' },
+    { name:'دينا',  city:'العين',     text:'الكتاب المطبوع تحفة — التغليف قيم والطباعة ممتازة. بنتى بتقرأه كل يوم وبتتعلم منه',                          stars:5, tag:'كتاب مطبوع',  tagColor:'var(--pink)'   },
+    { name:'رنا',  city:'رأس الخيمة',       text:'التعامل سهل جداً والتواصل على واتساب بسيط. جاهزين دايماً يردوا على الأسئلة. هنصح كل اصحابى بيه',                    stars:5, tag:'Premium هدية', tagColor:'var(--orange)' },
   ],
 }
 
