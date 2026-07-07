@@ -4,11 +4,11 @@ import { translations } from '@/components/translations'
 
 const planMeta = [
   { id:'pdf', icon:'📱', popular:false, accentColor:'var(--purple)',
-    tierPrices:[80, 199, 349] },
+    tierPrices:[50, 130, 220] },
   { id:'print', icon:'📚', popular:true, accentColor:'var(--pink)',
-    tierPrices:[300], oldPrices:[450] },
+    tierPrices:[100, 160] },
   { id:'premium', icon:'👑', popular:false, accentColor:'var(--orange)',
-    tierPrices:[650] },
+    tierPrices:[349] },
 ]
 
 export default function Pricing() {
@@ -82,10 +82,10 @@ export default function Pricing() {
                         <div className="flex items-center gap-2">
                           {oldPrice && (
                             <div className="text-sm line-through" style={{ color:'var(--gray-text)', fontFamily:'var(--font-body)', opacity:0.5 }}>
-                              {oldPrice} EGP
+                              {oldPrice} AED
                             </div>
                           )}
-                          <div className="font-tajawal font-black text-xl" style={{ color:plan.accentColor }}>{price} EGP</div>
+                          <div className="font-tajawal font-black text-xl" style={{ color:plan.accentColor }}>{price} AED</div>
                         </div>
                       </div>
                     )
@@ -107,7 +107,7 @@ export default function Pricing() {
 
                 {/* CTA */}
                 <a
-                  href={`https://wa.me/201034502000?text=${encodeURIComponent(`${t.whatsappText} ${plan.name}`)}`}
+                  href={`https://wa.me/971501615994?text=${encodeURIComponent(`${t.whatsappText} ${plan.name}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={plan.popular ? 'btn-primary w-full justify-center py-3' : ''}
