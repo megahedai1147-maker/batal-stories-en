@@ -6,7 +6,7 @@ import { translations } from '@/components/translations'
 
 export default function Hero() {
   const ref = useRef<HTMLDivElement>(null)
-  const { lang } = useLanguage()
+  const { lang, dir } = useLanguage()
   const t = translations[lang].hero
 
   useEffect(() => {
@@ -94,7 +94,7 @@ export default function Hero() {
 
           {/* ── HERO IMAGE ── */}
           <div className="hidden lg:flex justify-center items-center relative">
-            <HeroImage t={t} />
+            <HeroImage t={t} dir={dir} />
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ export default function Hero() {
 
 
 /* ── HERO IMAGE ── */
-function HeroImage({ t }: { t: any }) {
+function HeroImage({ t, dir }: { t: any; dir: 'ltr'|'rtl' }) {
   return (
     <div className="relative flex items-center justify-center" style={{ width:'520px', height:'520px' }}>
       <div className="absolute inset-8 rounded-full blur-3xl opacity-40"
@@ -120,15 +120,15 @@ function HeroImage({ t }: { t: any }) {
         <Image src="/hero-image.png" alt={t.imgAlt} fill style={{ objectFit:'contain' }} priority/>
       </div>
       <div className="absolute top-12 left-0 flex items-center gap-2 px-4 py-2 rounded-full font-bold text-sm text-white animate-float"
-        style={{ background:'var(--teal)', boxShadow:'0 4px 16px rgba(39,211,182,0.4)', fontFamily:'var(--font-body)', animationDelay:'0.5s', zIndex:20 }}>
+        style={{ background:'var(--teal)', boxShadow:'0 4px 16px rgba(39,211,182,0.4)', fontFamily:'var(--font-body)', animationDelay:'0.5s', zIndex:20, direction:dir, unicodeBidi:'plaintext' }}>
         {t.badgeDelivery}
       </div>
       <div className="absolute top-1/2 -left-4 flex items-center gap-2 px-4 py-2 rounded-full font-bold text-sm animate-float"
-        style={{ background:'var(--yellow)', color:'var(--navy)', boxShadow:'0 4px 16px rgba(255,199,44,0.4)', fontFamily:'var(--font-body)', animationDelay:'1.2s', zIndex:20 }}>
+        style={{ background:'var(--yellow)', color:'var(--navy)', boxShadow:'0 4px 16px rgba(255,199,44,0.4)', fontFamily:'var(--font-body)', animationDelay:'1.2s', zIndex:20, direction:dir, unicodeBidi:'plaintext' }}>
         {t.badgeCustom}
       </div>
       <div className="absolute bottom-12 left-4 flex items-center gap-2 px-5 py-2.5 rounded-full font-bold text-sm text-white animate-float"
-        style={{ background:'var(--grad-btn)', boxShadow:'0 4px 20px rgba(255,45,122,0.4)', fontFamily:'var(--font-body)', animationDelay:'2s', zIndex:20 }}>
+        style={{ background:'var(--grad-btn)', boxShadow:'0 4px 20px rgba(255,45,122,0.4)', fontFamily:'var(--font-body)', animationDelay:'2s', zIndex:20, direction:dir, unicodeBidi:'plaintext' }}>
         {t.badgePrice}
       </div>
     </div>
