@@ -328,7 +328,7 @@ function StoryCard({ story, isActive, onToggle, lang }: {
               )}
             </p>
             <a
-              href={`https://wa.me/201034502000?text=${encodeURIComponent(
+              href={`https://wa.me/971501615994?text=${encodeURIComponent(
                 isEn
                   ? `I'd like to order the "${displayTitle}" story from the "${displayCategory}" category for my child`
                   : `أريد طلب قصة "${story.title}" من قسم "${story.category}" لطفلي`
@@ -483,7 +483,7 @@ export default function Catalog() {
           <p className="text-sm mb-4" style={{color:'var(--gray-text)',fontFamily:'var(--font-body)'}}>
             {isEn ? 'Can\u2019t find the right story? We\u2019ll write one from scratch for you!' : 'مش لاقي القصة المناسبة؟ نكتبلك واحدة من الصفر!'}
           </p>
-          <a href={`https://wa.me/201034502000?text=${encodeURIComponent(isEn ? 'I want a fully custom story for my child' : 'عايز قصة مخصصة بالكامل لطفلي')}`}
+          <a href={`https://wa.me/971501615994?text=${encodeURIComponent(isEn ? 'I want a fully custom story for my child' : 'عايز قصة مخصصة بالكامل لطفلي')}`}
             target="_blank" rel="noopener noreferrer" className="btn-primary">
             {isEn ? 'Request a Fully Custom Story ✨' : 'اطلب قصة مخصصة من الصفر ✨'}
           </a>
