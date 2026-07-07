@@ -23,7 +23,7 @@ export const translations = {
       ctaSecondary: 'Browse Stories 📚',
       badgeDelivery: '⚡ 48-Hour Delivery',
       badgeCustom: '✨ 100% Personalized',
-      badgePrice: '🎉 From $5 Only',
+      badgePrice: '🎉 From 50 AED Only',
       imgAlt: 'Your child is the hero of the story',
     },
     catalog: {
@@ -160,7 +160,7 @@ export const translations = {
       ctaSecondary: 'شوف القصص 📚',
       badgeDelivery: '⚡ تسليم 48 ساعة',
       badgeCustom: '✨ مخصص 100%',
-      badgePrice: '🎉 من 80 جنيه فقط',
+      badgePrice: '🎉 من 50 درهم فقط',
       imgAlt: 'طفلك بطل القصة',
     },
     catalog: {
