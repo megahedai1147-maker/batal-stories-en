@@ -19,7 +19,7 @@ export default function Footer() {
     ],
     [tf.contact]: [
       { label:'📘 Facebook',   href:'https://facebook.com/batal.stories'  },
-      { label:'📱 WhatsApp',   href:'https://wa.me/201034502000'           },
+      { label:'📱 WhatsApp',   href:'https://wa.me/971501615994'           },
       { label:'📸 Instagram',  href:'https://instagram.com/batal.stories'  },
       { label:'🎵 TikTok',     href:'https://tiktok.com/@batal.stories'   },
     ],
