@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* WhatsApp floating button */}
       <a
-        href={`https://wa.me/201000000000?text=${encodeURIComponent(t.whatsappGreeting)}`}
+        href={`https://wa.me/971501615994?text=${encodeURIComponent(t.whatsappGreeting)}`}
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-float"
