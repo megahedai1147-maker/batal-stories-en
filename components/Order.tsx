@@ -3,10 +3,10 @@ import { useState } from 'react'
 import { useLanguage } from '@/components/LanguageContext'
 import { translations } from '@/components/translations'
 
-const pkgIds = ['pdf1','pdf3','pdf6','print','premium']
+const pkgIds = ['pdf1','pdf3','pdf6','print1','print2','premium']
 const pkgPrices: Record<string,{price:string, newPrice?:string, popular?:boolean}> = {
-  pdf1:{price:'80 EGP'}, pdf3:{price:'199 EGP', popular:true}, pdf6:{price:'349 EGP'},
-  print:{price:'450 EGP', newPrice:'300 EGP'}, premium:{price:'650 EGP'},
+  pdf1:{price:'50 AED'}, pdf3:{price:'130 AED', popular:true}, pdf6:{price:'220 AED'},
+  print1:{price:'100 AED'}, print2:{price:'160 AED', popular:true}, premium:{price:'349 AED'},
 }
 const langIds = ['ar','en','both']
 
@@ -37,7 +37,7 @@ export default function Order() {
 
   const handleSubmit = () => {
     if (!form.childName.trim()) { alert(t.alertName); return }
-    window.open(`https://wa.me/201034502000?text=${encodeURIComponent(buildMessage())}`, '_blank')
+    window.open(`https://wa.me/971501615994?text=${encodeURIComponent(buildMessage())}`, '_blank')
   }
 
   const inputBase = {
