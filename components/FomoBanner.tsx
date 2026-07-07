@@ -51,13 +51,13 @@ export default function FomoBanner() {
           className="text-white text-sm line-through opacity-70"
           style={{ fontFamily: 'var(--font-body)' }}
         >
-          450 EGP
+          150 AED
         </span>
         <span
           className="font-tajawal font-black text-base px-3 py-0.5 rounded-full"
           style={{ background: 'white', color: 'var(--pink)' }}
         >
-          300 EGP
+          100 AED
         </span>
       </div>
 
