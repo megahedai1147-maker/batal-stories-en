@@ -1,3 +1,5 @@
+
+
 'use client'
 import Image from 'next/image'
 import { useLanguage } from '@/components/LanguageContext'
@@ -18,7 +20,7 @@ export default function Footer() {
       { label:t.order.title, href:'#order'  },
     ],
     [tf.contact]: [
-      { label:'📘 Facebook',   href:'https://facebook.com/batal.stories'  },
+      { label:'📘 Facebook',   href:'https://www.facebook.com/profile.php?id=61591547020659'  },
       { label:'📱 WhatsApp',   href:'https://wa.me/971501615994'           },
       { label:'📸 Instagram',  href:'https://instagram.com/batal.stories'  },
       { label:'🎵 TikTok',     href:'https://tiktok.com/@batal.stories'   },
@@ -66,7 +68,7 @@ export default function Footer() {
             </div>
             <div className="flex gap-3">
               {[
-                { icon:'📘', href:'https://facebook.com/batal.stories'  },
+                { icon:'📘', href:'https://www.facebook.com/profile.php?id=61591547020659'  },
                 { icon:'📸', href:'https://instagram.com/batal.stories'  },
                 { icon:'🎵', href:'https://tiktok.com/@batal.stories'   },
               ].map((s,i) => (
