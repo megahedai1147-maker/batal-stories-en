@@ -4,7 +4,7 @@ import { LanguageProvider } from '@/components/LanguageContext'
 
 export const metadata: Metadata = {
   title: 'Batal Stories — Your Child Is the Hero',
-  description: "Personalized children's books by name and look — your child is the hero. Instant PDF or a printed book delivered across Egypt.",
+  description: "Personalized children's books by name and look — your child is the hero. Instant PDF or a printed book delivered across the UAE.",
   keywords: "kids stories, personalized book, kids gift, your child the hero, Batal Stories",
   openGraph: {
     title: 'Batal Stories — Your Child Is the Hero',
