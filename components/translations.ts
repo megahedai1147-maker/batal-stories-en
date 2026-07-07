@@ -71,7 +71,7 @@ export const translations = {
         },
         {
           name: 'Printed Book', tagline: 'A real book delivered to your door',
-          tiers: [{ label: 'One Story', priceNote: '' }, { label: 'Two Stories', priceNote: 'Delivery included' }],
+          tiers: [{ label: 'One Story', priceNote: '' }, { label: 'Two Stories', priceNote: '' }],
           features: ['Premium color printing', 'Delivery all across the UAE', '12 pages', 'Delivered in 3-5 days', 'A gift to keep forever'],
         },
         {
